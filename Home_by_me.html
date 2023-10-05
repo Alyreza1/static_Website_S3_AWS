@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Great Job!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 15px 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            margin-top: 50px;
+        }
+
+        h1 {
+            color: #4CAF50;
+        }
+
+        p {
+            font-size: 18px;
+            color: #333;
+        }
+
+        .quote {
+            font-style: italic;
+            margin-top: 20px;
+        }
+
+        .confetti {
+            position: absolute;
+            height: 4px;
+            width: 4px;
+            background-color: #FFD700;
+            opacity: 0.7;
+            border-radius: 50%;
+            box-shadow: 200px 200px 0 0 #FFD700;
+            animation: confetti-fall linear infinite;
+        }
+
+        @keyframes confetti-fall {
+            to {
+                transform: translateY(100vh);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Congratulations!</h1>
+    </header>
+
+    <div class="container">
+        <p>You did a great job! Keep up the excellent work and continue to shine.</p>
+        <div class="quote">
+            <em>"Success is not final, failure is not fatal: It is the courage to continue that counts." - Winston Churchill</em>
+        </div>
+        <div class="confetti"></div>
+    </div>
+</body>
+
+</html>
